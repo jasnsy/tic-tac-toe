@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import App from "../src/App";
 
 describe('App', function () {
-    it('should display pass in number', function () {
+    it('should render App with header', function () {
         let container = document.createElement('div');
         document.body.appendChild(container);
         act(() => {
