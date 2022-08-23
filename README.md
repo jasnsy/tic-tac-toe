@@ -1,3 +1,1 @@
-```
 # Typescript React Project Template
-```
