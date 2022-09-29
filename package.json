@@ -9,7 +9,7 @@
     "start": "webpack serve --hot --open",
     "build": "webpack --config webpack.config.js --mode development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
