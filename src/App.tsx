@@ -1,12 +1,14 @@
 import React from "react";
-import Counter from "./components/Counter";
+import TicTacToe from "./components/TicTacToe"
 import './index.css'
 
 const App = () => {
   return (
-    <div>
-      <h1>Create React App from Scratch Using Typescript!</h1>
-      <Counter />
+    <div className="container">
+      <div className="title">
+        <h1>Tic Tac Toe</h1>
+      </div>
+      <TicTacToe />
     </div>
   )
 }
